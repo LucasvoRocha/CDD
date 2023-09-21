@@ -1,6 +1,6 @@
 soma = 0
-for i in range(10):
+for x in range(10):
     numero = int(input("Digite um número: "))
     soma += numero
-media = soma / (i + 1)
+media = soma / (x + 1)
 print("A media é:", media)
